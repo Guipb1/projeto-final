@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34324B"
+    tools:context=".pages.AdicionarContato">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="104dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logochat" />
+
+    <TextView
+        android:id="@+id/title_criar_contato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Criar contato"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/inputNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Nome do contato"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/title_criar_contato"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="@+id/title_criar_contato"
+        app:layout_constraintTop_toBottomOf="@+id/title_criar_contato" />
+
+    <EditText
+        android:id="@+id/inputDDD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="DDD"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/inputNome"
+        app:layout_constraintStart_toStartOf="@+id/inputNome"
+        app:layout_constraintTop_toBottomOf="@+id/inputNome" />
+
+    <EditText
+        android:id="@+id/inputTelefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:hint="Telefone"
+        android:inputType="phone"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/inputDDD"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/inputDDD"
+        app:layout_constraintTop_toBottomOf="@+id/inputDDD" />
+
+    <Button
+        android:id="@+id/buttonCriarContato"
+        android:layout_width="166dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF66C4"
+        android:onClick="criarContato"
+        android:text="@string/button_criar_contato"
+        app:layout_constraintEnd_toEndOf="@+id/buttonCamera"
+        app:layout_constraintStart_toStartOf="@+id/buttonCamera"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCamera" />
+
+    <ImageView
+        android:id="@+id/foto_criar_contato"
+        android:layout_width="94dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/inputTelefone"
+        app:layout_constraintStart_toStartOf="@+id/inputTelefone"
+        app:layout_constraintTop_toBottomOf="@+id/inputTelefone"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <Button
+        android:id="@+id/buttonCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#676491"
+        android:onClick="buttonCameraClicked"
+        android:text="Adicionar foto"
+        app:layout_constraintEnd_toEndOf="@+id/foto_criar_contato"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="@+id/foto_criar_contato"
+        app:layout_constraintTop_toBottomOf="@+id/foto_criar_contato" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

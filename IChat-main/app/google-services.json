@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "372500344698",
+    "project_id": "ichat-bec61",
+    "storage_bucket": "ichat-bec61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372500344698:android:2678d7e3809a9fd638f0c3",
+        "android_client_info": {
+          "package_name": "com.guilherme.contatos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372500344698-84rkrehftfou8ju5n35oq0od7r0polkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guilherme.contatos",
+            "certificate_hash": "dd2ae1fc1691b0523c4a92ab13c014f7ef82ffe3"
+          }
+        },
+        {
+          "client_id": "372500344698-fcr5e3997vp7oepdavk2m7a1amcqd93q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqfk1oT3ihsoRX8fdQINRCJNrGoL8wVtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372500344698-fcr5e3997vp7oepdavk2m7a1amcqd93q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

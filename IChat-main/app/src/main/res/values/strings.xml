@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">contato</string>
+    <string name="login_google">Entrar com o google</string>
+    <string name="logo">logo</string>
+    <string name="button_criar_contato">Salvar</string>
+    <string name="sair">Sair</string>
+    <string name="meus_contatos">Meus contatos</string>
+    <string name="todo">TODO</string>
+    <string name="nome_de_contato">Nome de contato</string>
+    <string name="_41_9999_9999">(41) 9999-9999</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+</resources>
